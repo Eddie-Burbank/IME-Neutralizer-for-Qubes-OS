@@ -6,20 +6,20 @@ This is a simple script which disables and neutralizes the IME (Intel Management
 
 1. Download script from here in any AppVM.
 
-2. Copy script to dom0:
+2. Copy script to dom0: <br>
    qvm-run --pass-io <VM_NAME> 'cat /home/user/ime_neutralize.sh' > /home/<USERNAME>/ime_neutralize.sh
 
-3. Make script executable:
+3. Make script executable:<br>
    sudo chmod +x ime_neutralize.sh
 
-4. Run script with sudo:
+4. Run script with sudo:<br>
    sudo ./ime_neutralize.sh
 
-5. Reboot system:
+5. Reboot system:<br>
    sudo reboot
 
-7. Once back in system, run:
-   lsmod | grep mei
+7. Once back in system, run:<br>
+   lsmod | grep mei<br>
 
    Zero output means the neutralization was successful.
 
