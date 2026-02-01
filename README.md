@@ -7,7 +7,7 @@ This is a simple script which disables and neutralizes the IME (Intel Management
 1. Download script from here in any AppVM.
 
 2. Copy script to dom0: <br>
-   qvm-run --pass-io <VM_NAME> 'cat /home/user/ime_neutralize.sh' > /home/<USERNAME>/ime_neutralize.sh
+   qvm-run --pass-io VM_NAME 'cat /home/user/ime_neutralize.sh' > /home/USERNAME/ime_neutralize.sh
 
 3. Make script executable:<br>
    sudo chmod +x ime_neutralize.sh
