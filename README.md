@@ -1,6 +1,6 @@
 # IME-Neutralizer-for-Qubes-OS
 
-This is a simple script which disables and neutralizes the IME (Intel Management Engine) on the software level. Creates for Qubes OS, but will probably work on most other linux distros too..
+This is a simple script which disables and neutralizes the IME (Intel Management Engine) on the software level. Created for Qubes OS, but will probably work on most other linux distros too..
 
 ------- INSTRUCTIONS -------
 
